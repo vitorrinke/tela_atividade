@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Cadastro extends StatelessWidget {
-  const Cadastro({super.key});
+class WidgetText extends StatelessWidget {
+  const WidgetText({super.key});
 
   @override
   Widget build(BuildContext context) {
