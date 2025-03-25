@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class Login extends StatelessWidget {
+  const Login({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('"home"'), backgroundColor: Colors.red),
+      appBar: AppBar(title: const Text('"login"'), backgroundColor: Colors.red),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
             Navigator.pushNamed(context, '/cadastro');
           },
-          child: const Icon(Icons.arrow_forward),
+          child: const Text("cadastrar-se"),
         ),
       ),
     );
